@@ -58,4 +58,4 @@ for index, (image, prediction) in enumerate(images_and_predictions[:4]):
     plt.imshow(image, cmap=plt.cm.gray_r, interpolation='nearest')
     plt.title('Prediction: %i' % prediction)
 
-plt.show()
+# plt.show()
