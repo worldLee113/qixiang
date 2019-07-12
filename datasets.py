@@ -50,6 +50,7 @@ predictions = KNN.predict(digits.data[-1:])
 # print(accuracy_score(Y_validition,predictions))
 # print(confusion_matrix(Y_validition,predictions))
 print(predictions)
+# 绘图
 print(digits.images[-1:])
 images_and_predictions = list(zip(digits.images[-1:], predictions))
 for index, (image, prediction) in enumerate(images_and_predictions[:4]):
